@@ -14,6 +14,9 @@ echo "/n"
 
 #Go
 echo "Golang:"
+go mod init golang
+cd golang
+
 echo "/n"
 
 #Rust
