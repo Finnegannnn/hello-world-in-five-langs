@@ -1,18 +1,17 @@
-.section  .data
-msg:
-    .asciz "Hello World!"   
-msg_len = . - msg             
+section .data
+    msg      db "Hello World!", 0xA
+    msg_len  equ $ - msg
 
-.section .text
-.globl _start              
+section .text
+    global _start
+
 _start:
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, msg
+    mov edx, msg_len
+    int 0x80
 
-    movl $4, %eax              
-    movl $1, %ebx            
-    movl $msg, %ecx            
-    movl $msg_len, %edx        
-    int $0x80                 
-
-    movl $1, %eax              
-    xorl %ebx, %ebx        
-    int $0x80                
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80             
