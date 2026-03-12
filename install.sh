@@ -14,3 +14,8 @@ wget https://go.dev/dl/go1.26.1.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.26.1.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 go version
+
+#rust depencienies
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.bashrc
+rustc --version
