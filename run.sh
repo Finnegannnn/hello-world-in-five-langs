@@ -7,6 +7,8 @@ python3 main.py
 
 #C++
 echo "C++: \n"
+g++ main.cpp -o cplusplus
+./cplusplus
 
 #Go
 echo "Golang: \n"
