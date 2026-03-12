@@ -17,5 +17,5 @@ go version
 
 #rust depencienies
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source ~/.bashrc
+source ~/.bashrc > /dev/null 2>&1
 rustc --version
