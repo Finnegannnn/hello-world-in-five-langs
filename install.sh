@@ -19,3 +19,6 @@ go version
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.bashrc > /dev/null 2>&1
 rustc --version
+
+#Assembly dependencies 
+sudo apt-get install nasm -y
