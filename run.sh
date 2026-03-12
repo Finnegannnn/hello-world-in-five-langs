@@ -2,19 +2,24 @@
 echo "Beggining now...."
 
 #python
-echo "Python3: \n"
+echo "Python3:"
 python3 main.py
+echo "/n"
 
 #C++
-echo "C++: \n"
+echo "C++:"
 g++ main.cpp -o cplusplus
 ./cplusplus
+echo "/n"
 
 #Go
-echo "Golang: \n"
+echo "Golang:"
+echo "/n"
 
 #Rust
-echo "Rust: \n"
+echo "Rust:"
+echo "/n"
 
 #Assembly 
-echo "Assembly: \n"
+echo "Assembly:"
+echo "/n"
