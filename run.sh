@@ -29,4 +29,9 @@ echo "\n"
 
 #Assembly 
 echo "Assembly:"
+nasm -f elf64 -o asmscript.o main.asm
+ld -o asmscript asmscript.o
+./asmscript
 echo "\n"
+
+echo "Bye Bye!"
