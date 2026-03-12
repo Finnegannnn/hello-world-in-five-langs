@@ -1,5 +1,5 @@
 #Shell Script to run all the various language scripts in one
-echo "Beggining now...."
+echo "Beggining now....\n"
 
 #python
 echo "Python3:"
