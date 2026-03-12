@@ -14,8 +14,8 @@ echo "/n"
 
 #Go
 echo "Golang:"
-go mod init main.go
-go mod tidy
+go mod init main.go > /dev/null
+go mod tidy > /dev/null
 go run .
 echo "/n"
 
