@@ -21,4 +21,5 @@ source ~/.bashrc > /dev/null 2>&1
 rustc --version
 
 #Assembly dependencies 
+sudo apt update && sudo apt install -y build-essential gdb libgtk-3-dev
 sudo apt-get install nasm -y
