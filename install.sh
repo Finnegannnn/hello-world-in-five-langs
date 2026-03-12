@@ -1,2 +1,4 @@
 #Instaltion script for all required depencencies for the project
-sudo apt-get install python3
+su
+chmod a+x run.sh
+apt-get install python3
