@@ -23,6 +23,8 @@ echo "\n"
 
 #Rust
 echo "Rust:"
+rustc main.rs -o rustscript
+./rustscript
 echo "\n"
 
 #Assembly 
